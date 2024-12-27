@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Switzer';
+    src: url('./fonts/Switzer-Variable.woff2');
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/Manrope.woff2');
+}
+
+@font-face {
+    font-family: 'Stardom';
+    src: url('./fonts/Stardom-Regular.woff2');
+}
