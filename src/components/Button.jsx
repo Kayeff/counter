@@ -1,4 +1,6 @@
-export default function Button({ onClick, children }) {
+import { memo } from "react";
+
+const Button = memo(function Button({ onClick, children }) {
   return (
     <button
       onClick={onClick}
@@ -7,4 +9,6 @@ export default function Button({ onClick, children }) {
       {children}
     </button>
   );
-}
+});
+
+export default Button;
