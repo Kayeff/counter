@@ -1,4 +1,4 @@
-# Counter made for understanding the advanced React concepts
+# Counter for understanding the advanced React concepts
 
 1. How React Works behind the scenes / How it builds a component tree.
 2. memo() understanding.
