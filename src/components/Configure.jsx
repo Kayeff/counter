@@ -18,12 +18,12 @@ export default function Configure({ handleSetCount }) {
 
   return (
     <div className="flex items-center justify-center flex-col space-y-2 p-4 font-Manrope">
-      <h1 className="text-xl">Configure Counter</h1>
+      <h1 className="text-xl tracking-tight">Configure Counter</h1>
       <div className="flex items-center justify-center gap-1">
         <input
           onChange={handleChange}
           value={enteredCount}
-          className="border border-jet outline-0 px-2 py-2"
+          className="border border-jet/20 outline-0 px-2 py-2"
           placeholder="Enter a value"
           type="number"
         />

@@ -11,10 +11,10 @@ export default function App() {
 
   return (
     <main className="w-full min-h-screen bg-cosmic-latte text-jet flex items-center justify-center flex-col">
-      <Configure handleSetCount={handleSetCount} />
-      <div className="w-full flex items-center justify-center p-4">
-        <Counter newCount={count} />
+      <div className="w-full flex items-center justify-center flex-col p-4 border border-jet/20">
+        <Counter initialCount={count} />
       </div>
+      <Configure handleSetCount={handleSetCount} />
     </main>
   );
 }
